@@ -12,12 +12,8 @@ body {
   height: 69px;
   display: inline-flex;
   border-bottom: 1px solid seashell;
-}
-
-.container1 {
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: space-between;
+  margin: 10px 0;
 }
 
 .logo {
@@ -26,8 +22,8 @@ body {
   opacity: 0.9;
 }
 
-.container2 {
-  display: inline-flex;
+ul {
+  display: flex;
   justify-content: flex-end;
   align-items: center;
 }
