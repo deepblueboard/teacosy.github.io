@@ -11,16 +11,21 @@ body {
   position: fixed;
   height: 69px;
   display: inline-flex;
+  border-bottom: 1px solid seashell;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .logo {
   height: 50px;
   margin: 10px 0;
-  justify-content: flex-start;
-  align-items: center;
 }
 
-ul {
+.container2 {
   display: flex;
   justify-content: flex-end;
   align-items: center;
