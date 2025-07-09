@@ -7,7 +7,7 @@ body {
   text-align: center;
 }
 
-.header {
+header {
   height: 69px;
   display: inline-flex;
   border-bottom: 1px solid seashell;
